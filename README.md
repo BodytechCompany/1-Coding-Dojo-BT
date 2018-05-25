@@ -19,3 +19,16 @@ As regras são as seguintes:
 
 
 ## Participantes
+
+Americo Freitas
+Anderson Pureza
+Carolina Serrão
+Cláudio Silva
+Douglas Moraes
+Henrique Nogueira
+Hugo Carvalho
+José Carlos Barbosa
+Michel Andrade
+Romuel Martins
+
+
