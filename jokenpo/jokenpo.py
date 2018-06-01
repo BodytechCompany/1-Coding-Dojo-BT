@@ -43,3 +43,11 @@ class Jokenpo():
 
         elif p1 == 'pedra' and p2 =='papel':
             return self.p2_winner    
+
+
+if __name__=="__main__":
+    p1 = input("Jogador 1:")
+    p2 = input("Jogador 2:")
+
+    j = Jokenpo()
+    print(j.efetua_jogada(p1,p2))
