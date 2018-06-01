@@ -1,5 +1,9 @@
 class Jokenpo():
 
+    def __init__(self):
+        self.p1_winner = "Jogador 1 Vencedor"
+        self.p2_winner = "Jogador 2 Vencedor"
+
         
     def efetua_jogada(self,p1,p2):
 
@@ -23,26 +27,19 @@ class Jokenpo():
             return 'Empatou!'
 
         elif p1 == 'pedra' and p2 =='tesoura':
-            return 'Jogador 1 Vencedor'
+            return self.p1_winner
 
         elif p1 == 'tesoura' and p2 =='papel':
-            return 'Jogador 1 Vencedor'
+            return self.p1_winner
 
         elif p1 == 'papel' and p2 =='pedra':
-            return 'Jogador 1 Vencedor'
+            return self.p1_winner
 
         elif p1 == 'tesoura' and p2 =='pedra':
-            return 'Jogador 2 Vencedor'
+            return self.p2_winner
 
         elif p1 == 'papel' and p2 =='tesoura':
-            return 'Jogador 2 Vencedor'
+            return self.p2_winner
 
         elif p1 == 'pedra' and p2 =='papel':
-            return 'Jogador 2 Vencedor'
-
- 
-    
-
-
-
-        
+            return self.p2_winner    
